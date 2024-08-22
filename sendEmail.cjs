@@ -14,10 +14,11 @@ let transporter = nodemailer.createTransport({
 // Step 2: Set up the email data
 let mailOptions = {
     from: 'iamshibila100@gmail.com', // sender address
-    to: 'ashin209@gmail', // list of receivers
+    // to: 'shibila@daddara.in', // list of receivers
+    to: 'ashin209@gmail.com', // list of receivers
     subject: 'Assignment Nodejs nodemailer', // Subject line
     text: 'This is send thrtough nodemailer by Shibila sherin plus your Shibilasherin22@gmail.com !', // plain text body
-    html: '<b>This is send thrtough nodemailer assignment!</b>' // html body
+    html: '<b>This is send thrtough nodemailer by Shibila sherin plus your Shibilasherin22@gmail.com !!</b>' // html body
 };
 
 // Step 3: Send the email
